@@ -8,6 +8,8 @@ Este repositorio incluye una implementación de la práctica sobre el patrón **
 
 La API de muebles permite acceder a una lista de muebles organizada por categorías, como sillas, mesas y sofás. Los datos están estructurados en formato JSON y son accesibles mediante un endpoint RESTful.
 
+Para ejecutar esta api, se puede hacer uso del siguiente enlace: http://localhost:8080/api/muebles 
+
 ### Funcionalidad de la API
 
 - **Endpoint**: `GET /api/muebles`
