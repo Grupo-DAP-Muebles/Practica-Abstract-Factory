@@ -21,9 +21,9 @@ public class MuebleController {
                 new Mueble("3", "Silla STEFAN", 35.00, "moderno", "silla", "https://www.ikea.com/es/es/images/products/stefan-silla-blanco__1322933_pe942332_s5.jpg?f=xl"),
                 new Mueble("4", "Silla JANINGE", 59.00, "moderno", "silla", "https://example.com/images/silla_janinge.jpg"),
                 new Mueble("5", "Silla ODFER", 79.00, "moderno", "silla", "https://example.com/images/silla_odfer.jpg"),
-                new Mueble("5", "Silla SKANSNAS", 89.00, "clasico", "silla", "https://www.ikea.com/es/es/images/products/skansnas-silla-marron-haya__1319860_pe941001_s5.jpg"),
-                new Mueble("5", "Silla NORRARYD", 89.00, "clasico", "silla", "https://www.ikea.com/es/es/images/products/norraryd-silla-negro__0727327_pe735599_s5.jpg"),
-                new Mueble("5", "Silla KULLABERG", 99.00, "industrial", "silla", "https://www.ikea.com/es/es/images/products/kullaberg-silla-confidente-pino-negro__0724693_pe734575_s5.jpg?f=xl"),
+                new Mueble("6", "Silla SKANSNAS", 89.00, "clasico", "silla", "https://www.ikea.com/es/es/images/products/skansnas-silla-marron-haya__1319860_pe941001_s5.jpg"),
+                new Mueble("7", "Silla NORRARYD", 89.00, "clasico", "silla", "https://www.ikea.com/es/es/images/products/norraryd-silla-negro__0727327_pe735599_s5.jpg"),
+                new Mueble("8", "Silla KULLABERG", 99.00, "industrial", "silla", "https://www.ikea.com/es/es/images/products/kullaberg-silla-confidente-pino-negro__0724693_pe734575_s5.jpg?f=xl")
             
         ));
 
