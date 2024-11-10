@@ -28,16 +28,21 @@ public class MuebleController {
         ));
 
         mueblesPorCategoria.put("sofás", Arrays.asList(
-                new Mueble("7", "Sofá LANDSKRONA", 499, "clasico", "sofá", "https://www.ikea.com/es/es/images/products/landskrona-sofa-2-plazas-gunnared-verde-claro-madera__0602106_pe680175_s5.jpg?f=xl")
-                new Mueble("8", "Sofá VINLIDEN", 499, "clasico", "sofá", "https://www.ikea.com/es/es/images/products/vinliden-sofa-2-plazas-hakebo-beige__0852697_pe780205_s5.jpg?f=xl")
-                new Mueble("9", "Sofá ESKILSTUNA", 799, "moderno", "sofá", "https://www.ikea.com/es/es/images/products/eskilstuna-sofa-3-plazas-con-chaiselongue-hillared-antracita__1256233_pe924958_s5.jpg?f=xl")
-                new Mueble("10", "Sofá BÅRSLÖV", 499, "moderno", "sofá", "https://www.ikea.com/es/es/images/products/barslov-sofa-cama-3-plazas-con-chaiselongue-tibbleby-beis-gris__1213693_pe911220_s5.jpg?f=xl")
-                new Mueble("11", "Sofá REVSKÄR", 596, "industrial", "sofá", "https://www.ikea.com/es/es/images/products/revskar-conjunto-3-plazas-exterior-antracita-froson-duvholmen-gris-oscuro__1240165_pe919197_s5.jpg?f=xl")
+                new Mueble("7", "Sofá LANDSKRONA", 499, "clasico", "sofá", "https://www.ikea.com/es/es/images/products/landskrona-sofa-2-plazas-gunnared-verde-claro-madera__0602106_pe680175_s5.jpg?f=xl"),
+                new Mueble("8", "Sofá VINLIDEN", 499, "clasico", "sofá", "https://www.ikea.com/es/es/images/products/vinliden-sofa-2-plazas-hakebo-beige__0852697_pe780205_s5.jpg?f=xl"),
+                new Mueble("9", "Sofá ESKILSTUNA", 799, "moderno", "sofá", "https://www.ikea.com/es/es/images/products/eskilstuna-sofa-3-plazas-con-chaiselongue-hillared-antracita__1256233_pe924958_s5.jpg?f=xl"),
+                new Mueble("10", "Sofá BÅRSLÖV", 499, "moderno", "sofá", "https://www.ikea.com/es/es/images/products/barslov-sofa-cama-3-plazas-con-chaiselongue-tibbleby-beis-gris__1213693_pe911220_s5.jpg?f=xl"),
+                new Mueble("11", "Sofá REVSKÄR", 596, "industrial", "sofá", "https://www.ikea.com/es/es/images/products/revskar-conjunto-3-plazas-exterior-antracita-froson-duvholmen-gris-oscuro__1240165_pe919197_s5.jpg?f=xl"),
                 new Mueble("12", "Sofá KLIPPAN", 279, "industrial", "sofá", "https://www.ikea.com/es/es/images/products/klippan-sofa-2-plazas-vissle-gris__0239990_pe379591_s5.jpg?f=xl")
         ));
 
         mueblesPorCategoria.put("mesas", Arrays.asList(
-                new Mueble("13", "Mesa LACK", 49.99, "moderno", "mesa", "https://example.com/images/mesa_lack.jpg")
+                new Mueble("804.499.01", "Mesa LACK", 49.99, "moderno", "mesa", "https://www.ikea.com/es/es/images/products/lack-mesa-centro-blanco__0750651_pe746801_s5.jpg?f=xl"),
+                new Mueble("193.249.95", "Mesa Docksta", 179.00, "moderno", "mesa", "https://www.ikea.com/es/es/images/products/docksta-mesa-blanco-blanco__0803262_pe768820_s5.jpg?f=xl"),
+                new Mueble("705.813.59", "Mesa Tarsele", 499.00, "industrial", "mesa", "https://www.ikea.com/es/es/images/products/tarsele-mesa-extensible-chapa-roble-negro__0916857_pe785431_s5.jpg?f=xl"),
+                new Mueble("694.826.90", "Mesa Skogsta", 499.00, "industrial", "mesa", "https://www.ikea.com/es/es/images/products/skogsta-mesa-comedor-acacia-negro__0546603_pe656255_s5.jpg?f=xl"),
+                new Mueble("402.170.69", "Mesa Ingatorp", 349.00, "clasico", "mesa", "https://www.ikea.com/es/es/images/products/ingatorp-mesa-extensible-blanco__0737089_pe740879_s5.jpg?f=xl"),
+                new Mueble("105.159.42","Mesa Mariedamm", 249.00, "clasico", "mesa", "https://www.ikea.com/es/es/images/products/mariedamm-mesa-blanco-roble__1010541_pe828122_s5.jpg?f=xl")
         ));
 
         return mueblesPorCategoria;
