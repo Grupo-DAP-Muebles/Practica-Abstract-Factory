@@ -27,3 +27,17 @@ public abstract class ClasesMuebles {
                 ", estilo=" + estilo + ", categoria=" + categoria + ", urlImagen=" + urlImagen + "]";
     }
 }
+
+
+class Mesa extends ClasesMuebles {
+
+    public Mesa(String id, String nombre, Double precio, String estilo, String categoria, String urlImagen) {
+        super(id, nombre, precio, estilo, categoria, urlImagen);
+        setCategoria();
+    }
+
+    @Override
+    protected void setCategoria() {
+        this.categoria = "mesa";
+    }
+}
