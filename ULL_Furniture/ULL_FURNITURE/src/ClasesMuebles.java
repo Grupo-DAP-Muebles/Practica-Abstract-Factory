@@ -41,3 +41,17 @@ class Mesa extends ClasesMuebles {
         this.categoria = "mesa";
     }
 }
+
+class Silla extends ClasesMuebles {
+
+    public Silla(String id, String nombre, Double precio, String estilo, String categoria, String urlImagen) {
+        super(id, nombre, precio, estilo, categoria, urlImagen);
+        setCategoria();
+    }
+
+    @Override
+    protected void setCategoria() {
+        this.categoria = "silla";
+    }
+
+}
