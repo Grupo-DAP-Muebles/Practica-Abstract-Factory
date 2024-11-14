@@ -12,9 +12,9 @@ public class InterfazGrafica extends JFrame {
     private JButton filtrarPorPrecioBtn; // Botón para aplicar filtro de precio
     private String tipoMuebleSeleccionado = null;  // Variable para almacenar selección actual (puede ser null)
     private String estiloSeleccionado = null; // Nuevo atributo para permitir búsquedas más flexibles
-    private ClienteDeMuebles cliente; // Cliente para acceder a la lista de muebles
+    private ParseadorMuebles cliente; // Cliente para acceder a la lista de muebles
 
-    public InterfazGrafica(ClienteDeMuebles cliente) {
+    public InterfazGrafica(ParseadorMuebles cliente) {
         this.cliente = cliente;
 
         // Configurar la ventana
