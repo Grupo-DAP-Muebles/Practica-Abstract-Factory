@@ -55,3 +55,17 @@ class Silla extends ClasesMuebles {
     }
 
 }
+
+class Sofa extends ClasesMuebles {
+
+    public Sofa(String id, String nombre, Double precio, String estilo, String categoria, String urlImagen) {
+        super(id, nombre, precio, estilo, categoria, urlImagen);
+        setCategoria();
+    }
+
+    @Override
+    protected void setCategoria() {
+        this.categoria = "sofa";
+    }
+
+}
