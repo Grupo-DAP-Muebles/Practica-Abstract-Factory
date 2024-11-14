@@ -30,7 +30,7 @@ public class InterfazGrafica extends JFrame {
     }
 
     private void initPanelPrincipal() {
-        JLabel bienvenida = new JLabel("¡Bienvenido a la práctica 5 de DAP!");
+        JLabel bienvenida = new JLabel("¡Bienvenido la tienda de Muebles ULL Furniture!");
         JButton botonSillas = new JButton("Sillas");
         JButton botonSofas = new JButton("Sofás");
         JButton botonMesas = new JButton("Mesas");
